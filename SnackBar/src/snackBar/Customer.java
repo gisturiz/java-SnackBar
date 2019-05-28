@@ -33,11 +33,14 @@ public class Customer
 
 	public void addCash(double addAmount) 
 	{
-		return this.cash += addAmount;
+		double newCash = this.cash + addAmount;
+		this.cash = newCash;
+
 	}
 
 	public void cashRemaining(double amountSpent)
 	{
-		return this.cash -= amountSpent;
+		double remainCash = this.cash - amountSpent;
+		this.cash = remainCash;
 	}
 }
