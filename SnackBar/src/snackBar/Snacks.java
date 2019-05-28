@@ -65,22 +65,24 @@ public class Snacks
 		return quantity;
 	}
 
-	public void addQuantity(int addQuantity) 
+	public void plusQuantity(int addQuantity) 
 	{
 		int newQuantity = this.quantity + addQuantity;
 		this.quantity = newQuantity;
 	}
 
-	public void buySnack(int buyQuantity)
+	public int lessQuantity(int buyQuantity)
 	{
 		int quanBuy = this.quantity - buyQuantity;
 		this.quantity = quanBuy;
+		return quantity;
 	}
 
 	public double totalCost(int totalQuantity)
 	{
 		double costMult = this.cost * totalQuantity;
 		this.cost = costMult;
+		return cost;
 	}
 
 }

@@ -18,7 +18,8 @@ public class Main
 		Snacks sna4 = new Snacks("Soda", 24, 2.50, ven2.getId());
 		Snacks sna5 = new Snacks("Water", 20, 2.75, ven2.getId());
 
-		cust1.cashRemaining(cust1.getCash() - sna4.totalCost(3));
+		System.out.println(cust1.getCash() - sna4.totalCost(3));
+		System.out.println(sna4.lessQuantity(3));
 
 	}
 

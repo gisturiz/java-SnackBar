@@ -35,7 +35,6 @@ public class Customer
 	{
 		double newCash = this.cash + addAmount;
 		this.cash = newCash;
-
 	}
 
 	public void cashRemaining(double amountSpent)

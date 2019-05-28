@@ -6,7 +6,7 @@ public class Vendingmachine
 	public int id;
 	public String name;
 
-	publix Vendingmachine(String name)
+	public Vendingmachine(String name)
 	{
 		maxId++;
 		id = maxId;
