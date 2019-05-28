@@ -65,10 +65,11 @@ public class Snacks
 		return quantity;
 	}
 
-	public void plusQuantity(int addQuantity) 
+	public int plusQuantity(int addQuantity) 
 	{
 		int newQuantity = this.quantity + addQuantity;
 		this.quantity = newQuantity;
+		return quantity;
 	}
 
 	public int lessQuantity(int buyQuantity)

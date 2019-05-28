@@ -31,10 +31,11 @@ public class Customer
 		return cash;
 	}
 
-	public void addCash(double addAmount) 
+	public double addCash(double addAmount) 
 	{
 		double newCash = this.cash + addAmount;
 		this.cash = newCash;
+		return cash;
 	}
 
 	public void cashRemaining(double amountSpent)
